@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&effect=shadow-multiple">
+    <script src="https://kit.fontawesome.com/c755ff1fd5.js" crossorigin="anonymous"></script>
+    <title>Jr. Developer Portfolio</title>
+</head>
+
+<body>
+    <div class="grid-section">
+        <header>
+            <div class="logo">
+                <img/>
+                <a href="/"><h2 class="font-effect-shadow-multiple" class="logo-title">Jr. Software Developer</h2></a>
+            </div>
+        </header>
+
+        <page-tabs id="page-tabs"><div class="page-tabs-body">
+            <div class="page-tabs-section">
+               <div class="page-tabs-inner">
+                  <div class="page-tabs-tabs">
+                    <button class="tabs"><a href="/#/herosection" class="font-effect-shadow-multiple" class="pages">Hero:</a></button>
+                    <button class="tabs"><a href="/#/aboutme" class="font-effect-shadow-multiple" class="pages">About:</a></button>
+                    <button class="tabs"><a href="/#/skills" class="font-effect-shadow-multiple" class="pages">Skills:</a></button>
+                    <button class="tabs"><a href="/#/education" class="font-effect-shadow-multiple" class="pages">Education:</a></button>
+                    <button class="tabs"><a href="/#/uxdesigns" class="font-effect-shadow-multiple" class="pages">Designs:</a></button>
+                    <button class="tabs"><a href="/#/projects" class="font-effect-shadow-multiple" class="pages">Projects:</a></button>
+                    <button class="tabs"><a href="/#/remarks" class="font-effect-shadow-multiple" class="pages">Remarks:</a></button>
+                    <button class="tabs"><a href="/#/contactform" class="font-effect-shadow-multiple" class="pages">ContactMe:</a></button>
+                   </div>
+               </div>
+            </div>
+          </div>
+       </page-tabs>
+
+        <hero-section id="hero-section"></hero-section>
+
+        <about-me>About-Me</about-me>
+
+        <skills-section>Skills</skills-section>
+
+        <education>Education</education>
+
+        <designUx-section>Design</designUx-section>
+
+        <projects-section>projects</projects>
+
+        <remarks-section>Remarks</remarks-section>
+
+        <contact-me id="contact-me-section"></contact-me>
+
+        <footer id="footer-section">Footer</footer>
+
+    </div>
+    <script type="module" src="Js_Screens/pagetabs.js"></script>
+    <script type="module" src="Js_Screens/herosection.js"></script>
+    <script type="module" src="app.js" defer></script>
+</body>
+
+</html>

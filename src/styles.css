@@ -1,0 +1,437 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+ --background-color: #37f78d;
+ --a-text-deepEmeraldGreen: #046307;
+ --background-mediumSeaGreen: mediumseagreen;
+ --scroll-bar-color-deepEmeraldGreen: #046307;
+ --ul-li-text-color-white: white;
+ --a-active-effect-text: #0dca36;
+ --level-one: translateZ(3rem);
+ --level-two: translateZ(6rem);
+ --level-three: translateZ(9rem);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-areas: "header" "page-tabs" "hero-section" "about-me" "skills-section"  "education"  "designUx-section"  "projects-section" "remarks-section" "contact-me" "footer"; 
+    /* grid-template-columns: 1fr; */
+    grid-template-rows: 4rem 11rem 30rem 30rem 30rem 30rem 30rem 1fr 30rem 30rem 7rem;
+    height: 100%;
+    grid-gap: 1.5rem;
+}
+/*--------------------------------------------------------*/
+
+/*Header -Page CSS */
+header {
+   grid-area: "header";
+   background: linear-gradient(rgba(20, 206, 51, 0.493), rgba(255, 255, 255, 0.466));
+   display: flex;
+   padding: 1rem;
+   border-bottom-left-radius: 3px;
+   border-bottom-right-radius: 3px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--a-text-deepEmeraldGreen);
+    font-family: "Audiowide", sans-serif;
+}
+
+header .logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ header .logo img {
+    background-image: url(./images/logo/bytecodeblack/BCB_FInal.jpg);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 40% 30%;
+ }
+ 
+ header .pages-links {
+     display: grid;
+     grid-template-columns: repeat(8,1fr);
+     grid-gap: 1rem;
+     width: 20rem;
+     margin-left: -52.5rem; 
+    
+ }
+
+ header .pages-links a {
+    font-size: 20px;
+ }
+
+header .pages-links a:hover {
+    transition: 0.3s all;
+    transform: scale(1.045);
+    text-shadow: var(--a-active-effect-text);
+    cursor: pointer;  
+}
+/*--------------------------------------------------------*/
+
+/*PageTabs -Page CSS */
+page-tabs .page-tabs-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+page-tabs .page-tabs-section {
+    height: 11rem;
+    width: 100%;
+    position: relative;
+}
+
+page-tabs .page-tabs-inner { 
+    height: 15vh;
+    width: 70%;
+    margin-left: 27.5rem;
+}
+
+page-tabs .page-tabs-tabs .tabs {
+    background: linear-gradient(rgba(20, 206, 51, 0.712), rgba(255, 255, 255, 0.466));
+    width: 6vw;
+    height: 9vh;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-style: none;
+}
+
+page-tabs .page-tabs-tabs .tabs:hover {
+     background-color: grey;
+     cursor: pointer; 
+     transform: scale(1.120);
+}
+
+page-tabs .page-tabs-tabs .tabs a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--a-text-deepEmeraldGreen);
+    font-size: 17.5px;
+}
+/*--------------------------------------------------------*/
+
+/*HeroSection -Page CSS*/
+hero-section .heroSection-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hero-section .heroSection-body video {
+     position: absolute;
+     z-index: -1;
+     top: 7.5%;
+     width: 100%;
+     object-fit: cover;
+}
+
+hero-section .heroSection-section {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    height: 20vh;
+    width: 50%;
+    position: absolute;
+    top: 29%;
+    left: 17%;
+}
+
+hero-section .heroSection-section-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+hero-section .heroSection-left-content-img img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 7px solid grey;
+}
+
+hero-section .heroSection-right-content {
+    background-color: rgb(112, 112, 119);
+    height: 7vh;
+    width: 25vw;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+hero-section .heroSection-bottom-content {
+    background-color: #046307;
+    position: absolute;
+    top: 150%;
+    left: 38%;
+    width: 30vw;
+}
+/*--------------------------------------------------------*/
+
+/* AboutMe -Page CSS*/
+
+
+
+
+
+
+/* ContactMe -Page CSS*/
+contact-me .contactForm-body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+contact-me .contactForm-section {
+    display: flex;
+    position: relative;
+    height: 110vh;
+    width: 100%;
+    position: relative;
+    border: 2px solid grey;
+    justify-content: center;
+    text-align: center;
+}
+
+contact-me .contactForm-section video {
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+contact-me .contactForm-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+
+contact-me .contactForm-section-content {
+    position: relative;
+    display: flex;
+    min-width: 1100px;
+    min-height: 550px;
+    z-index: 1000;
+}
+
+contact-me .contactForm-section-content-contactInfo {
+      background-color: rgba(52, 168, 52, 0.767);
+      display: flex;
+      position: absolute;
+      top: 25.5%;
+      width: 350px;
+      height: calc(50% - 80px);
+      z-index: 1;
+      padding: 40px;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 20px 20px rgb(0, 0, 0, 0.2);
+}
+
+contact-me .contactForm-section-content-contactInfo h1{
+    color: black;
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+contact-me .contactForm-ul-contactInfo {
+    position: relative;
+    margin-top: -7%;
+}
+
+contact-me .contactForm-ul-contactInfo li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 25px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+contact-me .contactForm-ul-contactInfo li span:nth-child(1) {
+   width: 30px;
+   min-width: 30px;
+
+} 
+
+contact-me .contactForm-ul-contactInfo li span:nth-child(1) img {
+  max-width: 100%;
+  filter: invert(1);
+  opacity: 0.5;
+}
+
+contact-me .contactForm-ul-contactInfo li span:nth-child(2) {
+   color: #fff;
+   margin-left: 10px;
+   font-weight: 500;
+   opacity: 0.5;
+ } 
+ 
+contact-me .contactForm-ul-contactInfo li:hover span:nth-child(1) img,
+contact-me .contactForm-ul-contactInfo li:hover span:nth-child(2) {
+    opacity: 1;
+}
+
+
+contact-me .contactForm-section-content-contactInfo .contactForm-ul-contactInfo-socialMedia {
+  position: relative;
+  display: flex;
+  top: -5%;
+}
+
+contact-me .contactForm-section-content-contactInfo .contactForm-ul-contactInfo-socialMedia li {
+ list-style: none;
+ margin-right: 15px;
+}
+
+contact-me .contactForm-section-content-contactInfo .contactForm-ul-contactInfo-socialMedia li img{
+    width: 50px;
+    min-width: 40px;
+    
+}
+
+contact-me .contactForm-section-content-contactInfo .contactForm-ul-contactInfo-socialMedia li a img{
+    max-width: 100%;
+}
+
+contact-me .contactForm-section-content-contactInfo .contactForm-ul-contactInfo-socialMedia li a {
+ text-decoration: none;
+}
+
+contact-me .contactForm-section-content-contactInfo .contactForm-ul-contactInfo-socialMedia li a img {
+   filter: invert(1);
+   opacity: 0.5;
+   background-color: aquamarine;
+}
+
+contact-me .contactForm-section-content-contactInfo .contactForm-ul-contactInfo-socialMedia li:hover a img {
+   opacity: 1;
+}
+
+
+contact-me .contactForm-section-content-contactForm {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    padding: 85px 11rem;
+    background: linear-gradient(rgba(20, 206, 51, 0.493), rgba(255, 255, 255, 0.466));
+    width: calc(100% - 150px);
+    height: 68%;
+    box-shadow: 0 50px 50px rgb(0, 0, 0, 0.5);
+}
+
+contact-me .contactForm-section-content-contactForm h1 {
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox {
+    position: relative;
+    margin: 0 0 35px 0;
+}    
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox.w50 {
+   width: 30vw;
+  
+}    
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox.w100 {
+    width: 100%;
+}    
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox input,
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox textarea {
+    width: 100% !important;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-top: 3.5%;
+}    
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox textarea {
+    min-height: 120px;
+}
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox span {
+   position: absolute;
+   top: -10%;
+   left: 0%;
+   padding: 5px 0;
+   font-weight: 800;
+   color: rgb(0, 0, 0);
+   transition: 0.5s;
+   pointer-events: none;
+}
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox input:focus ~ span,
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox textarea:focus ~ span,
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox input:focus:valid ~ span,
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox textarea:focus:valid ~ span {
+transform: translateY(-20px);
+font-size: 12px;
+font-weight: 400;
+letter-spacing: 1px;
+color: #046307;
+}
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox input[type="submit"]{
+    position: relative;
+    cursor: pointer;
+    background-color: #0dca36;
+    color: #fff;
+    border: none;
+    max-width: 250px;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox input[type="submit"]:hover{
+    background-color: #046307;
+}
+
+
+
+footer{
+    background-color: #046307;
+}
