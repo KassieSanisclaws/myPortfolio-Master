@@ -3,8 +3,8 @@
 const ContactForm = {
     render:() =>{
          return `<div class="contactForm-body">
-                     <div class="contactForm-section">
-    <video autoPlay loop muted><source src="videos/Presentation Video - 27406.mp4" type="video/mp4"/></video> 
+                  <div class="appGlass"><h1>Contact</h1></div>
+                     <div class="contactForm-section">          
                      <div class="contactForm-section-content">            
                         <div class="contactForm-section-content-contactInfo">
                          

@@ -25,10 +25,24 @@ body {
     display: grid;
     grid-template-areas: "header" "page-tabs" "hero-section" "about-me" "skills-section"  "education"  "designUx-section"  "projects-section" "remarks-section" "contact-me" "footer"; 
     /* grid-template-columns: 1fr; */
-    grid-template-rows: 4rem 11rem 30rem 30rem 30rem 30rem 30rem 1fr 30rem 30rem 7rem;
+    grid-template-rows: 4rem 11rem 26.5rem 60rem 72rem 65rem 57rem 1fr 55rem 64.5rem 3rem;
     height: 100%;
-    grid-gap: 1.5rem;
+    grid-gap: 2rem;
 }
+
+.appGlass{
+    /* background: linear-gradient(rgba(20, 206, 51, 0.712), rgba(255, 255, 255, 0.466)); */
+    width: 15vw;
+    height: 11vh;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-style: none;
+    background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+}
+
+
 /*--------------------------------------------------------*/
 
 /*Header -Page CSS */
@@ -108,7 +122,7 @@ page-tabs .page-tabs-inner {
 
 page-tabs .page-tabs-tabs .tabs {
     background: linear-gradient(rgba(20, 206, 51, 0.712), rgba(255, 255, 255, 0.466));
-    width: 6vw;
+    width: 6.7vw;
     height: 9vh;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
@@ -126,6 +140,8 @@ page-tabs .page-tabs-tabs .tabs a {
     font-weight: bolder;
     color: var(--a-text-deepEmeraldGreen);
     font-size: 17.5px;
+    font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
 }
 /*--------------------------------------------------------*/
 
@@ -140,6 +156,7 @@ hero-section .heroSection-body video {
      position: absolute;
      z-index: -1;
      top: 7.5%;
+     height: 80vh;
      width: 100%;
      object-fit: cover;
 }
@@ -186,17 +203,1821 @@ hero-section .heroSection-bottom-content {
 /*--------------------------------------------------------*/
 
 /* AboutMe -Page CSS*/
+about-me .about-me-body {
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(20deg, white 60%,#49d6862f 50%);
+}
+
+about-me .about-me-section {
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+
+about-me .about-me-section .appGlass{
+    margin: 2rem 49rem;
+ }
+
+about-me .about-me-section h1{
+   text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+   font-family: "Audiowide", sans-serif;
+}
+
+about-me .about-me-container {
+   height: 100%;
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   padding: 40px;
+   
+}
+
+about-me .about-me-container > div{
+   width: 40vw;
+   height: 80vh;
+   margin: 0 3.7rem;
+}
+
+about-me .about-meContent1{
+    border: 4px solid lawngreen;
+    width: 100%;
+    height: 50vh;
+}
+
+about-me .about-meContent2{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    overflow: hidden;
+}
+
+about-me .about-meContent2-inner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+about-me .about-meContent2-innerHeader{
+    width: 100%;
+    height: 7vh;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+about-me .about-meContent2-innerHeader h2{
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+about-me .about-meContent2-contentCards{
+    height: 72.8vh;
+    display: grid;  
+    border-radius: 5px;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+about-me .about-meContent2-contentCard1{
+    background-color: olive;
+    border-radius: 5px;
+    opacity: .3;
+    padding: 40px;
+}
+
+about-me .about-meContent2-contentCard1 h2{
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+}
+
+about-me .about-meContent2-contentCard1 li{
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+about-me .about-meContent2-contentCard2{
+    background-color: slateblue;
+    border-radius: 5px;
+    opacity: .3;
+    padding: 40px;
+}
+
+about-me .about-meContent2-contentCard2 h2{
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    
+}
+
+about-me .about-meContent2-contentCard2 li{
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    
+}
+
+about-me .about-meContent2-contentCard3{
+    background-color: darkseagreen;
+    border-radius: 5px;
+    opacity: .3;
+    padding: 40px;
+}
+
+about-me .about-meContent2-contentCard3 h2{
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+about-me .about-meContent2-contentCard3 li{
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+about-me .about-meContent2-contentCard4{
+    background-color: darkslategray;
+    border-radius: 5px;
+    opacity: .3;
+    padding: 40px;
+}
+
+about-me .about-meContent2-contentCard4 h2{
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+about-me .about-meContent2-contentCard4 li{
+    font-family: 'Syncopate', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;   
+}
+
+about-me .about-meContent2-contentCard5{
+    position: fixed;
+    top: 3.7rem;
+    left: 5%;
+    height: 73.3vh;
+    width: 20vw;
+}
+
+about-me .aboutMe-timeLine{
+    position: fixed;
+    top: 5%;
+    left: 3%;
+    border-radius: 5px;
+    height: 95%;
+    width: 23vw;
+    padding: 10px;
+}
+
+about-me .aboutMe-timeLine ul{
+    padding: 0;
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+about-me .aboutMe-timeLine li{
+    position: relative;
+    padding: 60px;
+}
+
+about-me .aboutMe-timeLine li:hover{
+    cursor: pointer;
+}
+
+about-me .aboutMe-timeLine li p{
+    padding: 13px 20px;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: 1.5s;
+    font-family: 'Syncopate', sans-serif;
+}
+
+
+about-me .aboutMe-timeLine-innerLine{
+    background: darkseagreen;
+    width: 4px;
+    height: 100%;
+    border-radius: 999px;
+    position: absolute;
+    top: 1.5rem;
+    left: 12.45rem;
+    transition: 1s linear;
+}
+
+about-me .aboutMe-timeLine-point{
+    border: none;
+    position: absolute;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    top: 30px;
+    left: 45%;
+    background-color: aliceblue;
+    transition: 1.2s ease;
+   
+}
+
+about-me .aboutMe-timeLine-point > li span{
+   grid-gap: 5rem;
+   border: 4px solid lawngreen;
+   
+}
+
+about-me .aboutMe-timeLine-date{
+    opacity: 0;
+    transition: 1.5s;
+    font-size: 12px;
+    position: absolute;
+    top: 13px;
+    left: 38%;
+    font-size: 15px;
+}
+
+about-me .aboutMe-timeLine-date p{
+    
+}
 
 
 
 
 
+/*--------------------------------------------------------*/
+/* Skills -Page CSS*/
+skills-section {
+    grid-area: "skills-section";
+ }
+
+skills-section .skills-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(20deg, white 60%,#49d6862f 50%);
+}
+
+skills-section .skills-section{
+    height: 96vh;
+    width: 100%;
+    margin-top: -1rem;
+}
+
+skills-section .skills-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1rem;
+}
+
+skills-section .skills-header{
+    display: flex; 
+    justify-content: center;
+}
+
+skills-section .skills-header h1{
+   text-transform: uppercase;
+   font-family: "Audiowide", sans-serif;
+   padding: 25px;
+   font-size: 40px;
+   margin-left: 28px;
+}
+
+skills-section .header{
+   /* border: 4px solid aqua; */
+   padding: 13px;
+}
+
+skills-section .header h2{
+   text-align: center;
+   text-transform: uppercase;
+   font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
+   /* font-weight: 700; */
+}
+
+skills-section .skillsImg-links{
+    width: 100%;
+}
+
+skills-section .xml-img{
+
+     background-position: center;
+     background-image: url(./images/skills/xml.png);
+     background-size: cover;
+}
+
+skills-section .css-img{
+    background-position: center;
+    background-image: url(./images/skills/css.png);
+    background-size: cover;
+}
+
+skills-section .webPack-img{
+    background-position: center;
+    background-image: url(./images/skills/webPack.png);
+    background-size: cover;
+}
+
+skills-section .webComponents-img{
+    background-position: center;
+    background-image: url(./images/skills/webComponents.png);
+    background-size: cover;
+}
+
+skills-section .sass-img{
+    background-position: center;
+    background-image: url(./images/skills/sass.png);
+    background-size: cover;
+}
+
+skills-section .webComponents-img{
+    background-position: center;
+    background-image: url(./images/skills/webComponents.png);
+    background-size: cover;
+}
+
+skills-section .react-img{
+    background-position: center;
+    background-image: url(./images/skills/react.png);
+    background-size: cover;
+}
+
+skills-section .php-img{
+    background-position: center;
+    background-image: url(./images/skills/php.png);
+    background-size: cover;
+}
+
+skills-section .nodejs-img{
+    background-position: center;
+    background-image: url(./images/skills/nodejs.png);
+    background-size: cover;
+}
+
+skills-section .dotnet-img{
+    background-position: center;
+    background-image: url(./images/skills/net.png);
+    background-size: cover;
+}
+
+skills-section .mySql-img{
+    background-position: center;
+    background-image: url(./images/skills/mysql.png);
+    background-size: cover;
+}
+
+skills-section .mvc-img{
+    background-position: center;
+    background-image: url(./images/skills/mvc.png);
+    background-size: cover;
+}
+
+skills-section .mongodb-img{
+    background-position: center;
+    background-image: url(./images/skills/mongodb.png);
+    background-size: cover;
+}
+
+skills-section .laraval-img{
+    background-position: center;
+    background-image: url(./images/skills/laraval.png);
+    background-size: cover;
+}
+
+skills-section .jwt-img{
+    background-position: center;
+    background-image: url(./images/skills/jwt.png);
+    background-size: cover;
+}
+
+skills-section .express-img{
+    background-position: center;
+    background-image: url(./images/skills/express.png);
+    background-size: cover;
+}
+
+skills-section .angular-img{
+    background-position: center;
+    background-image: url(./images/skills/angular.png);
+    background-size: cover;
+}
+
+skills-section .skillsImg-links ul{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 20px;
+}
+
+skills-section .skillsImg-links li{
+    /* border: 1px solid rgb(142, 142, 145); */
+    height: 12vh;
+    width: 6vw;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+skills-ection .skillsImg-links {
+
+}
+
+skills-section .skillsCard-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    /* border: 4px solid salmon; */
+}
+
+skills-section .skillsCard{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+skills-section .skillsCard p{
+    font-size: 25px;
+    text-transform: uppercase;
+   
+}
+
+skills-section .skillsCard1{
+    /* border: 4px solid rgb(0, 124, 128); */
+}
+
+skills-section .skillsCard1-content li{
+    list-style-type: none;
+    padding: 8px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+skills-section .skillsCard2{
+    /* border: 4px solid green; */
+}
+
+skills-section .skillsCard2-content li{
+    list-style-type: none;
+    padding: 8px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+skills-section .skillsCard3{
+    /* border: 4px solid rgb(26, 0, 128);*/
+    /* background-color: #49d6862c; */
+}
+
+skills-section .skillsCard3-content li{
+    list-style-type: none;
+    padding: 4px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+skills-section .github-repoLinks{
+    width: 100%; 
+    padding: 20px;
+    margin: -1.5rem 0;
+}
+
+skills-section .github-repoLinks-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    perspective: 800px;
+}
+
+skills-section .github-repoLinks-content3D{ 
+    height: 150px;
+    width: 700px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+    transform: translateZ(-75px);
+}
+
+skills-section .github-repoLinks-content3D:hover{
+    transform: rotateX(-90deg) translateY(75px);
+}
+
+skills-section .github-repoLinks-content3D > div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold; 
+    backface-visibility: hidden;
+}
+
+skills-section .content3D-front{
+    background: linear-gradient(20deg, white 60%,#49d6862f 50%);
+    border: 7px solid rgba(152, 251, 152, 0.603);
+    color: #333;
+    transform: translateZ(75px);
+}
+
+skills-section .github-repoLinks-innerContent p{
+   margin: 10px 0;
+   font-family: 'Syncopate', sans-serif;
+}
+
+skills-section .content3D-back{
+    background: linear-gradient(20deg, white 60%,#49d6862f 50%);
+    border: 7px solid rgba(152, 251, 152, 0.603);
+    color: #333;
+    transform: rotateX(90deg) translateZ(75px);
+}
+
+skills-section .content3D-back a{
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    color: #333;
+}
+
+skills-section .github-repoLinks-img{
+    border: 4px solid yellowgreen;
+    width: 5vw;
+    height: 10.7vh;
+    border-radius: 50%;
+    margin: 5px 0;
+    overflow: hidden;
+    background-image: url(./images/logo/bytecodeblack/BCB_FInal.jpg); 
+    background-position: center;
+    background-size: cover;
+    margin-right: 2.5rem;
+    margin-left: -8rem;
+}
+
+skills-section .github-repoLinks-innerContent{
+    height: 100%;
+    margin: 5px 0;
+}
+
+skills-section .github-repoLinks-innerContent p{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+skills-section .github-repoLinks-innerContent button{
+    padding: 10px;
+    width: 20vw;
+    height: 5vh;
+    font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+skills-section .github-repoLinks-innerContent button:hover{
+   cursor: pointer;
+   transition: all .1s ease-in;
+   transform: scale(1.10);
+}
+
+skills-section .skillsImg-linksGlass{
+    background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 43%;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+skills-section .github-repoLinks-glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+skills-section .github-repoLinks-glass2{
+    background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+skills-section .repoLinksImg-glass{
+    background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 55%;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+}
+
+skills-section .skillsCardGlass{
+    background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+/*--------------------------------------------------------*/
+/* Education -Page CSS*/
+education .education-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-top: 2px solid gray;
+    /* background-color: #49d6862f; */
+    background: linear-gradient(20deg, white 60%,#49d6862f 50%);
+}
+
+
+education .education-section{
+   margin: 2rem 0;
+   height: 100%;
+   width: 100%;
+   
+}
+
+education .education-container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 3rem;
+   
+}
+
+education .education-content{ 
+    display: flex;
+    justify-content: center;
+}
+
+education .education-content h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+     /* font-family: 'Syncopate', sans-serif; */
+     padding: 25px;
+}
+
+education .education-content2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    grid-gap:1rem;
+}
+
+education .education-contentInner{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    overflow: hidden;
+    width: 56vw;
+}
+
+education .education-contentInner-cards{
+    height: 100%;
+    padding: 20px;
+}
+
+education .education-contentInner-cards > div{
+    width: 20vw;
+    height: calc(40vh /4);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-style: none;
+    background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+}
+
+education .education-contentInner-cards > div.showContents{
+    /* border-left: 5px solid greenyellow; */
+    border-left: 5px solid rgb(47, 255, 144);
+}
+
+education .education-contentInner-cards > div.showContents:hover{
+    cursor: pointer;
+}
+
+education .resources-divContent{
+    height: 100%;
+    width: 100%;
+    position: relative; 
+    overflow: hidden;
+}
+
+education .resources-divContent > div{
+    position: absolute;
+    top: -50vh;
+    left: 100px;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out 0ms, left 300ms ease-in-out 0ms, top 0ms ease-in-out 3000ms;
+}
+
+education .resources-divContent > div.showContents{
+     top: 20px;
+     left: 0;
+     opacity: 1;
+     transition: opacity 200ms ease-in-out 0ms, left 300ms ease-in-out 0ms, top 0ms ease-in-out 0ms;
+}
+
+
+education .resources-divContent2{
+    height: 100%;
+    position: relative;
+    margin-left: 10px;
+}
+
+education .resources-divContent2 > div{
+    width: 15vw;
+    height: calc(40vh /4);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-style: none;
+    background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+}
+
+education .resources-divContent2 > div.showContents{
+    border-left: 5px solid rgb(47, 255, 144);
+}
+
+education .resources-divContent2 > div.showContents:hover{
+    cursor: pointer;
+}
+
+education .resources-divContents{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;  
+}
+
+education .resources-divContents > div{
+    position: absolute;
+    top: -50vh;
+    left: 100px;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out 0ms, left 300ms ease-in-out 0ms, top 0ms ease-in-out 3000ms;
+    padding: 10px;
+}
+
+education .resources-divContents > div.showContents{
+    top: 0;
+    left: 5px;
+    opacity: 1;
+    transition: opacity 100ms ease-in-out 0ms, left 300ms ease-in-out 0ms, top 0ms ease-in-out 200ms;
+}
+
+education .resources-divContent3{
+    height: 100%;
+    position: relative;
+}
+
+education .resources-divContent3 > div{
+    width: 15vw;
+    height: calc(40vh /6);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-style: none;
+    background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+}
+
+education .resources-divContent3 > div.showContents{
+    border-left: 5px solid rgb(47, 255, 144);
+}
+
+education .resources-divContent3 > div.showContents:hover{
+    cursor: pointer;
+}
+
+education .education-contentInner2{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+    padding: 20px;
+}
+
+education .education-contentInner2-card{
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-style: none;
+    background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+    overflow: hidden;
+}
+
+education .educationHeader-content2 h3{
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
+}
+
+education .education-timeline{
+    width: 30vw;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    overflow: hidden;
+}
+
+education .education-timeline-content{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+education .education-timeline-header{
+    width: 100%;
+    height: 5vh;
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+education .education-timeline-header h2{
+    text-transform: uppercase;
+    /* font-family: "Audiowide", sans-serif; */
+    font-family: 'Syncopate', sans-serif;
+    text-decoration: underline;
+}
+
+education .education-timeline-innerContent{
+    height: 100%;
+    width: 100%;
+    
+}
+
+education .timeline-cards{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+}
+
+education .timeline-card1{
+    opacity: .3;
+    background-color: rgba(152, 251, 152, 0.603);
+    
+}
+
+education .timeline-card2{
+   border-top: 2px solid gray;
+   background-color: rgba(216, 112, 147, 0.42);
+   opacity: .3;
+}
+
+education .timeline-card3{
+    border-top: 2px solid gray;
+    background-color: rgba(175, 238, 238, 0.589);
+    opacity: .3;
+}
+
+education .timeline-card4{
+    border-top: 2px solid gray;
+    opacity: .3;
+    background-color: rgba(238, 232, 170, 0.551);
+}
+
+education .timeline-card5{
+    border-top: 2px solid gray;
+    opacity: .3;
+    background-color: rgba(255, 218, 185, 0.647);
+}
+
+education .timeline-cards h2{
+   display: flex;
+   justify-content: center;
+   padding: 40px;
+   opacity: .6;
+   text-transform: uppercase;
+   font-family: "Audiowide", sans-serif;
+}
+
+education .timeline-cardImg{
+    position: fixed;
+    top: 5%;
+    left: 3%;
+    border-radius: 5px;
+    height: 95%;
+    width: 23vw;
+    padding: 10px;
+}
+
+education .timeline-cardImg ul{
+    padding: 0;
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+education .timeline-cardImg li{
+   position: relative;
+}
+
+education .timeline-cardImg li:hover{
+    cursor: pointer;
+ }
+
+education .timeline-cardImg li p{
+    padding: 13px 20px;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: 1.5s;
+    font-family: 'Syncopate', sans-serif;
+ }
+
+education .timeLine-innerLine{
+   background: rgba(12, 131, 12, 0.716);
+   width: 4px;
+   height: 100%;
+   border-radius: 999px;
+   position: absolute;
+   top: 0%;
+   left: 12.31rem;
+   transition: 1s linear;
+}
+
+education .timeLine-point{
+   border: none;
+   position: absolute;
+   border-radius: 50%;
+   width: 15px;
+   height: 15px;
+   top: 30px;
+   left: 45%;
+   background-color: aliceblue;
+   transition: 1.2s ease;
+}
+
+education .timeLine-date{
+   opacity: 0;
+   transition: 1.5s;
+   font-size: 12px;
+   position: absolute;
+   top: 13px;
+   left: 38%;
+   font-size: 15px;
+}
+
+education .education-content3{
+    /* border: 4px solid crimson; */
+    margin: 2rem 0;  
+}
+
+education .education-content3-inner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* border: 4px solid gold; */
+    width: 80vw;
+    height: 100%;
+    padding: 20px;
+    margin: 0 10rem;
+    position: absolute;
+    perspective: 2000px;
+}
+
+education .cardEducation{
+   width: 11vw;
+   height: 18vh;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+   border-bottom-style: none;
+   background: linear-gradient(135deg, #49d6862f, rgba(255, 255, 255, 0));
+   backdrop-filter: blur(10px);
+   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+   transition: all 0.3s ease-in;
+   transform-style: preserve-3d;
+   display: flex;
+}
+
+education .cardEducation:hover{
+     cursor: pointer;
+     
+}
+
+education .cardEducation-front, .cardEducation-back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 0.3s ease-in;
+}
+
+education .cardEducation-front h2, .cardEducation-front p{
+    padding: 10px;
+    text-align: center;
+    margin: 1rem 0;
+    font-family: "Audiowide", sans-serif;
+}
+
+education .cardEducation.flipCard{
+    transform: rotateX(180deg);
+}
+
+education .cardEducation-front{
+    transform: rotateX(0deg);
+}
+
+education .cardEducation-back{
+    transform: rotateX(180deg);
+    /* padding: 65px ; */
+}
+
+education .cardEducation.flipCard .cardEducation-front{
+    transform: rotateX(-180deg) !important;
+}
+
+education .cardEducation.flipCard .cardEducation-back .modal{
+    transform: rotateX(0deg) !important;
+} 
+
+education .cardEducation.flipCard .cardEducation-back p{
+    transform: rotateX(0deg) !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding: 47px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+education .cardEducation-back .modal{
+    position: fixed;
+    top: -40rem;
+    left: 13rem;
+    border: 4px solid grey;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    z-index: 55;
+    background-color: #fff;
+    width: 50vw;
+    height: 71vh;
+    transition: 200ms ease-in-out;
+}
+
+education .cardEducation-backModal-header{
+   padding: 15px 35px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 4px solid grey;
+}
+
+education .cardEducation-backModal-header .modal-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+education .cardEducation-backModal-body{
+    padding: 15px 25px;
+    overflow-y: scroll;
+}
+
+education .cardEducation-back .modal2{
+    position: fixed;
+    top: -40rem;
+    left: -2rem;
+    border: 4px solid grey;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    z-index: 55;
+    background-color: #fff;
+    width: 50vw;
+    height: 71vh;
+    transition: 200ms ease-in-out;
+}
+
+education .cardEducation.flipCard .cardEducation-back .modal2{
+    transform: rotateX(0deg) !important;
+} 
+
+education .cardEducation-back .modal3{
+    position: fixed;
+    top: -40rem;
+    left: -19rem;
+    border: 4px solid grey;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    z-index: 55;
+    background-color: #fff;
+    width: 50vw;
+    height: 71vh;
+    transition: 200ms ease-in-out;
+}
+
+education .cardEducation.flipCard .cardEducation-back .modal3{
+    transform: rotateX(0deg) !important;
+} 
+
+
+education .cardEducation-back .modal4{
+    position: fixed;
+    top: -40rem;
+    left: -37rem;
+    border: 4px solid grey;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    z-index: 55;
+    background-color: #fff;
+    width: 50vw;
+    height: 71vh;
+    transition: 200ms ease-in-out;
+}
+
+education .cardEducation.flipCard .cardEducation-back .modal4{
+    transform: rotateX(0deg) !important;
+} 
+
+education .cardEducation-back .modal5{
+    position: fixed;
+    top: -40rem;
+    left: -54rem;
+    border: 4px solid grey;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    z-index: 55;
+    background-color: #fff;
+    width: 50vw;
+    height: 71vh;
+    transition: 200ms ease-in-out;
+}
+
+education .cardEducation.flipCard .cardEducation-back .modal5{
+    transform: rotateX(0deg) !important;
+}
+
+education .cardEducation-back .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* pointer-events: none; */
+    transition: 200ms ease-in-out;
+}
+
+education .cardEducation-back .overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/*--------------------------------------------------------*/
+
+designUx-section .designUx-body{
+    border-top: 2px solid grey;
+    height: 100%;
+    width: 100%;
+    margin: 5px 0;
+    background: linear-gradient(20deg, white 60%,#49d6862f 50%);
+}
+
+designUx-section .designUx-sectionContainer{
+    height: 100%;
+    width: 100%;
+}
+
+designUx-section .designUx-content{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+designUx-section .designUx-header{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    margin: 1rem 0;
+}
+
+designUx-section .designUx-header h1{
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
+    padding: 30px;
+}
+
+designUx-section .designUx-innerContent-cards{
+    height: 70vh;
+    margin: 3rem 0;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+designUx-section .designUx-card{
+   border: 4px solid gold;
+   width: 20vw;
+   overflow: hidden;
+   height: 100%;
+   border-radius: 20px;
+}
+
+designUx-section .designUx-cardImage{
+    border: 4px solid teal;
+    height: 35vh;
+    border-radius: 5px;
+}
+
+designUx-section .designUx-cardTitle{
+    border: 4px solid palevioletred;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+designUx-section .designUx-cardText{
+    border: 4px solid purple;
+    height: 15vh;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+designUx-section .designUx-cardBtn{
+    border: 4px solid powderblue;
+    height: 8.3vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+designUx-section .designUx-cardBtn button{
+    height: 5vh;
+    width: 10vw;
+    border-radius: 20px;
+}
+
+designUx-section .designUx-cardBtn button:hover{
+   cursor: pointer;
+}
+
+designUx-section .designUx-modalContainer{
+     display: flex;
+     justify-content: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.3);
+     align-items: center;
+     opacity: 0;
+     pointer-events: none;
+     transition: opacity 0.3s ease;
+}
+
+designUx-section .designUx-modalContainer.showModal{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+designUx-section .designUx-modal{
+     background-color: #fff;
+     border-radius: 5px;
+     height: 700px;
+     width: 800px;
+     max-width: 100%;
+     text-align: center;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     overflow: hidden; 
+}
+
+
+
+designUx-section .designUx-modalHeader{
+    height: 8vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5px; 
+    background: linear-gradient(20deg, white 60%,#49d686b9 50%);
+}
+
+designUx-section .designUx-modalHeader h2{
+    height: 100%;
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
+    padding: 11px;
+}
+
+designUx-section .designUx-modalHeader button{
+    /* border: 4px solid rgb(195, 0, 255); */
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50px;
+}
+
+designUx-section .designUx-modalHeader button:hover{
+    cursor: pointer;
+    
+}
+
+designUx-section .modal-btnClose{
+  font-size: 40px;
+  background: none;
+  color: #046307;
+  border: 2px solid rgb(47, 255, 134);
+  transition: all 0.2s ease-in;
+}
+
+designUx-section .designUx-modalContent{
+    height: 72.3vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+designUx-section .designUx-modalContent p{
+    border: 4px solid rgb(0, 185, 252);
+}
+
+designUx-section .designUx-modalContent-img{
+    height: 41vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+designUx-section .designUx-modalContent-imgSelection{
+    border: 2px solid grey;
+    height: 10vh;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: 5px;
+}
+
+designUx-section .designUx-modalContent-imgSelectionCard{
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.2s ease-in;
+}
+
+designUx-section .designUx-modalContent-imgSelectionCard:hover{
+   transform: scale(1.08);
+   cursor: pointer;
+}
+
+
+
+designUx-section .designUx-modalContent-description{
+    height: 21.5vh;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+designUx-section .designUx-modalContent-descriptioInner{
+    border: 4px solid firebrick;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/*--------------------------------------------------------*/
+
+/* Remarks -Page CSS*/
+remarks-section .remarks-body{
+    border-top: 2px solid grey;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(20deg, white 60%,#49d6862f 50%);
+}
+
+remarks-section .remarks-sectionContainer{
+    height: 100%;
+    width: 100%;
+}
+
+remarks-section .remarks-content{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    overflow: hidden;
+}
+
+remarks-section .remarks-header{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+remarks-section .remarks-header h1{
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
+    padding: 35px;
+}
+
+remarks-section .remarks-cards{
+    height: 70vh;
+    margin: 3rem 0;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+remarks-section .remarks-card{
+    border: 4px solid aqua;
+    width: 25vw;
+    height: 30vh;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+remarks-section .remarks-card-header{
+    border: 4px solid palegreen;
+    height: 5.5vh;
+    width: 100%;
+}
+
+remarks-section .remarks-card-content{
+    border: 4px solid palevioletred;
+    display: flex;
+    height: 23.6vh;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+remarks-section .remarks-card-contents1{
+    border: 4px solid tomato;
+    width: 14vw;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+remarks-section .remarks-img{
+    border: 4px solid brown;
+    height: 13.5vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+remarks-section .remarks-selectionImage{
+    border: 4px solid blue;
+    height: 8.4vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+remarks-section .remarks-selectionImage-card{
+    border: 3px solid yellow;
+    height: 7.5vh;
+    width: 3.5vw;
+}
+
+remarks-section .remarks-card-contents2{
+    border: 4px solid mediumslateblue;
+    width: 10.3vw;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+/*--------------------------------------------------------*/
+
+/* Projects -Page CSS*/
+projects-section .projects-body{
+    border-top: 2px solid gray;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(20deg, white 60%,#49d6862f 50%);
+}
+
+projects-section .projects-sectionContainer{
+    height: 100%;
+    width: 100%;
+}
+
+projects-section .projects-content{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+}
+
+projects-section .projects-header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    margin: 1rem 0;
+}
+
+projects-section .projects-header h1{
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
+    padding: 30px; 
+}
+
+projects-section .projects-cardsContent{
+    border: 4px solid peru;
+    padding: 45px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+projects-section .projects-cardContent{
+    border: 4px solid palegreen;
+    height: 30.5vh;
+    width: 14vw;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 4rem;
+}
+
+projects-section .projects-cardContent-header{
+   border: 4px solid blue;
+   height: 5vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+projects-section .projects-cardContent-header h2{
+    text-transform: uppercase;
+    /* font-family: "Audiowide", sans-serif; */
+    font-family: 'Syncopate', sans-serif;
+    padding: 5px; 
+}
+
+projects-section .projects-cardContent-img{
+     border: 4px solid violet;
+     height: 17.8vh;
+     width: 100%;
+}
+
+projects-section .projects-cardContent-img img{
+    
+}
+
+projects-section .projects-cardContent-btn{
+    border: 4px solid crimson;
+    width: 100%;
+    height: 7vh;
+    padding: 4.5px; 
+    display: flex;
+    justify-content: center;
+}
+
+projects-section .projects-cardContent-btn button{
+    height: 5vh;
+    width: 7vw;
+    border-radius: 20px;
+   
+}
+
+projects-section .projects-cardContent-btn button:hover{
+  cursor: pointer;
+   
+}
+
+projects-section .projects-modalContainer{
+    border: 4px solid fuchsia;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+} 
+
+projects-section .projects-modalContainer.showProjectModal{
+   pointer-events: auto;
+   opacity: 1;
+}
+
+projects-section .projects-modal{
+    border: 4px solid royalblue;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 700px;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden; 
+}
+
+projects-section .project-modalHeader{
+    height: 8vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5px; 
+    background: linear-gradient(20deg, white 60%,#49d686b9 50%);
+}
+
+projects-section .project-modalHeader button{
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50px;
+}
+
+
+projects-section .modal-btnClose{
+    font-size: 40px;
+    background: none;
+    color: #046307;
+    border: 2px solid rgb(47, 255, 134);
+    transition: all 0.2s ease-in;
+}
+
+projects-section .project-modalHeader h2{
+    height: 100%;
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
+    padding: 11px;
+}
+
+projects-section .project-modalContent{
+    height: 72.3vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+projects-section .project-modalContent-img{
+    height: 41vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+projects-section .project-modalContent-imgSelection{
+    border: 2px solid grey;
+    height: 10vh;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: 5px;
+}
+
+projects-section .project-modalContent-imgSelectionCard{
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.2s ease-in;
+}
+
+projects-section .project-modalContent-imgSelectionCard:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+projects-section .project-modalContent-description{
+    height: 21.5vh;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+projects-section .project-modalContent-descriptionInner{
+    border: 4px solid firebrick;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/*--------------------------------------------------------*/
 
 /* ContactMe -Page CSS*/
 contact-me .contactForm-body {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    border-top: 2px solid gray;
+    background: linear-gradient(20deg, white 60%,#49d6862f 50%);
+}
+
+contact-me .contactForm-body .appGlass h1{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    /* font-family: 'Syncopate', sans-serif; */
+
+}
+
+contact-me .contactForm-body .appGlass{
+   margin: 1.5rem 0;
+   margin-left: 50rem;
 }
 
 contact-me .contactForm-section {
@@ -204,19 +2025,8 @@ contact-me .contactForm-section {
     position: relative;
     height: 110vh;
     width: 100%;
-    position: relative;
-    border: 2px solid grey;
     justify-content: center;
     text-align: center;
-}
-
-contact-me .contactForm-section video {
-    position: absolute;
-    z-index: -1;
-    top: 0%;
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
 }
 
 contact-me .contactForm-section::before {
@@ -424,6 +2234,7 @@ contact-me .contactForm-section-content-contactForm .contactForm-form-box .input
     max-width: 250px;
     padding: 12px;
     text-transform: uppercase;
+    
 }
 
 contact-me .contactForm-section-content-contactForm .contactForm-form-box .inputBox input[type="submit"]:hover{
