@@ -16,9 +16,27 @@
  --level-three: translateZ(9rem);
 }
 
+h1,h2,h3,h4{
+   font-family: 'Nothing You Could Do', cursive;
+   font-family: 'Roboto', sans-serif;
+}
+
+h5{
+   font-family: 'Nothing You Could Do', cursive;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+}
+
+p,a,li,button{ 
+   font-family: 'Nothing You Could Do', cursive;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;  
+}
+
 body {
     margin: 0;
     height: 100vh;
+    background: linear-gradient(10deg, white 85%,#49d6862f 10%);
 }
 
 .grid-section {
@@ -88,10 +106,6 @@ header .logo {
     
  }
 
- header .pages-links a {
-    font-size: 20px;
- }
-
 header .pages-links a:hover {
     transition: 0.3s all;
     transform: scale(1.045);
@@ -139,9 +153,6 @@ page-tabs .page-tabs-tabs .tabs a {
     text-decoration: none;
     font-weight: bolder;
     color: var(--a-text-deepEmeraldGreen);
-    font-size: 17.5px;
-    font-family: "Audiowide", sans-serif;
-    /* font-family: 'Syncopate', sans-serif; */
 }
 /*--------------------------------------------------------*/
 
@@ -150,15 +161,6 @@ hero-section .heroSection-body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-hero-section .heroSection-body video {
-     position: absolute;
-     z-index: -1;
-     top: 7.5%;
-     height: 80vh;
-     width: 100%;
-     object-fit: cover;
 }
 
 hero-section .heroSection-section {
@@ -178,26 +180,25 @@ hero-section .heroSection-section-container {
 }
 
 hero-section .heroSection-left-content-img img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    border: 7px solid grey;
+    /* border-radius: 50%; */
+    width: 350px;
+    height: 440px;
 }
 
 hero-section .heroSection-right-content {
-    background-color: rgb(112, 112, 119);
+    border: 4px solid rgb(112, 112, 119);
     height: 7vh;
     width: 25vw;
     position: absolute;
     top: 90%;
-    left: 45%;
+    left: 48%;
 }
 
 hero-section .heroSection-bottom-content {
-    background-color: #046307;
+    border: 4px solid #046307;
     position: absolute;
     top: 150%;
-    left: 38%;
+    left: 48%;
     width: 30vw;
 }
 /*--------------------------------------------------------*/
@@ -224,7 +225,6 @@ about-me .about-me-section h1{
    display: flex;
    justify-content: center;
    padding: 30px;
-   font-family: "Audiowide", sans-serif;
 }
 
 about-me .about-me-container {
@@ -275,7 +275,6 @@ about-me .about-meContent2-innerHeader{
 }
 
 about-me .about-meContent2-innerHeader h2{
-    font-family: 'Syncopate', sans-serif;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -297,7 +296,6 @@ about-me .about-meContent2-contentCard1{
 }
 
 about-me .about-meContent2-contentCard1 h2{
-    font-family: 'Syncopate', sans-serif;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -305,7 +303,6 @@ about-me .about-meContent2-contentCard1 h2{
 }
 
 about-me .about-meContent2-contentCard1 li{
-    font-family: 'Syncopate', sans-serif;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -319,7 +316,6 @@ about-me .about-meContent2-contentCard2{
 }
 
 about-me .about-meContent2-contentCard2 h2{
-    font-family: 'Syncopate', sans-serif;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -327,7 +323,6 @@ about-me .about-meContent2-contentCard2 h2{
 }
 
 about-me .about-meContent2-contentCard2 li{
-    font-family: 'Syncopate', sans-serif;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -342,14 +337,12 @@ about-me .about-meContent2-contentCard3{
 }
 
 about-me .about-meContent2-contentCard3 h2{
-    font-family: 'Syncopate', sans-serif;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
 }
 
 about-me .about-meContent2-contentCard3 li{
-    font-family: 'Syncopate', sans-serif;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -363,14 +356,12 @@ about-me .about-meContent2-contentCard4{
 }
 
 about-me .about-meContent2-contentCard4 h2{
-    font-family: 'Syncopate', sans-serif;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
 }
 
 about-me .about-meContent2-contentCard4 li{
-    font-family: 'Syncopate', sans-serif;
     text-transform: uppercase;
     display: flex;
     justify-content: center;   
@@ -416,7 +407,6 @@ about-me .aboutMe-timeLine li p{
     opacity: 0;
     transform: translateX(10px);
     transition: 1.5s;
-    font-family: 'Syncopate', sans-serif;
 }
 
 
@@ -457,16 +447,7 @@ about-me .aboutMe-timeLine-date{
     position: absolute;
     top: 13px;
     left: 38%;
-    font-size: 15px;
 }
-
-about-me .aboutMe-timeLine-date p{
-    
-}
-
-
-
-
 
 /*--------------------------------------------------------*/
 /* Skills -Page CSS*/
@@ -502,23 +483,18 @@ skills-section .skills-header{
 
 skills-section .skills-header h1{
    text-transform: uppercase;
-   font-family: "Audiowide", sans-serif;
    padding: 25px;
    font-size: 40px;
    margin-left: 28px;
 }
 
 skills-section .header{
-   /* border: 4px solid aqua; */
    padding: 13px;
 }
 
 skills-section .header h2{
    text-align: center;
    text-transform: uppercase;
-   font-family: "Audiowide", sans-serif;
-    /* font-family: 'Syncopate', sans-serif; */
-   /* font-weight: 700; */
 }
 
 skills-section .skillsImg-links{
@@ -653,7 +629,6 @@ skills-section .skillsCard-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    /* border: 4px solid salmon; */
 }
 
 skills-section .skillsCard{
@@ -665,40 +640,41 @@ skills-section .skillsCard{
 }
 
 skills-section .skillsCard p{
-    font-size: 25px;
     text-transform: uppercase;
-   
 }
 
 skills-section .skillsCard1{
     /* border: 4px solid rgb(0, 124, 128); */
+    width: 20vw;
+    text-align: center;
 }
 
 skills-section .skillsCard1-content li{
     list-style-type: none;
     padding: 8px;
-    font-family: 'Syncopate', sans-serif;
 }
 
 skills-section .skillsCard2{
     /* border: 4px solid green; */
+    width: 20vw;
+    text-align: center;
 }
 
 skills-section .skillsCard2-content li{
     list-style-type: none;
     padding: 8px;
-    font-family: 'Syncopate', sans-serif;
 }
 
 skills-section .skillsCard3{
     /* border: 4px solid rgb(26, 0, 128);*/
     /* background-color: #49d6862c; */
+    width: 20vw;
+    text-align: center;
 }
 
 skills-section .skillsCard3-content li{
     list-style-type: none;
     padding: 4px;
-    font-family: 'Syncopate', sans-serif;
 }
 
 skills-section .github-repoLinks{
@@ -749,7 +725,6 @@ skills-section .content3D-front{
 
 skills-section .github-repoLinks-innerContent p{
    margin: 10px 0;
-   font-family: 'Syncopate', sans-serif;
 }
 
 skills-section .content3D-back{
@@ -761,7 +736,6 @@ skills-section .content3D-back{
 
 skills-section .content3D-back a{
     text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
     color: #333;
 }
 
@@ -787,17 +761,14 @@ skills-section .github-repoLinks-innerContent{
 skills-section .github-repoLinks-innerContent p{
     text-align: center;
     padding: 10px;
-    font-family: 'Syncopate', sans-serif;
+   
 }
 
 skills-section .github-repoLinks-innerContent button{
     padding: 10px;
     width: 20vw;
     height: 5vh;
-    font-family: "Audiowide", sans-serif;
-    /* font-family: 'Syncopate', sans-serif; */
     text-transform: uppercase;
-    font-size: 20px;
 }
 
 skills-section .github-repoLinks-innerContent button:hover{
@@ -881,9 +852,7 @@ education .education-content{
 education .education-content h1{
     text-align: center;
     text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
-     /* font-family: 'Syncopate', sans-serif; */
-     padding: 25px;
+    padding: 25px;
 }
 
 education .education-content2{
@@ -921,7 +890,6 @@ education .education-contentInner-cards > div{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
     margin: 2rem 0;
     text-transform: uppercase;
-    font-size: 15px;
     display: flex;
     align-items: center;
     text-indent: 20px;
@@ -1073,8 +1041,6 @@ education .education-contentInner2-card{
 education .educationHeader-content2 h3{
     padding: 20px;
     text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
-    /* font-family: 'Syncopate', sans-serif; */
 }
 
 education .education-timeline{
@@ -1109,8 +1075,6 @@ education .education-timeline-header{
 
 education .education-timeline-header h2{
     text-transform: uppercase;
-    /* font-family: "Audiowide", sans-serif; */
-    font-family: 'Syncopate', sans-serif;
     text-decoration: underline;
 }
 
@@ -1164,7 +1128,6 @@ education .timeline-cards h2{
    padding: 40px;
    opacity: .6;
    text-transform: uppercase;
-   font-family: "Audiowide", sans-serif;
 }
 
 education .timeline-cardImg{
@@ -1198,7 +1161,6 @@ education .timeline-cardImg li p{
     opacity: 0;
     transform: translateX(10px);
     transition: 1.5s;
-    font-family: 'Syncopate', sans-serif;
  }
 
 education .timeLine-innerLine{
@@ -1338,6 +1300,15 @@ education .cardEducation-backModal-header{
    justify-content: space-between;
    align-items: center;
    border-bottom: 4px solid grey;
+   width: 100%;
+   overflow: hidden;
+}
+
+education .cardEducation-backModal-header h2{
+    width: 100%;
+    text-transform: uppercase;
+    position: relative;
+    left: 90%;
 }
 
 education .cardEducation-backModal-header .modal-title{
@@ -1345,16 +1316,44 @@ education .cardEducation-backModal-header .modal-title{
     font-weight: bold;
 }
 
-education .cardEducation-backModal-body{
+education .cardEducation-backModal-body1{
     padding: 15px 25px;
     overflow-y: scroll;
+    border: solid fuchsia;
+
+}
+
+education .cardEducation-backModal-body2{
+    padding: 15px 25px;
+    overflow-y: scroll;
+    border: solid rgb(0, 17, 255);
+}
+
+education .cardEducation-backModal-body3{
+    padding: 15px 25px;
+    overflow-y: scroll;
+    border: solid rgb(0, 255, 68);
+}
+
+education .cardEducation-backModal-body4{
+    padding: 15px 25px;
+    overflow-y: scroll;
+    height: 60.3vh;
+    overflow: hidden;
+}
+
+education .cardEducation-backModal-body4 img{
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 education .cardEducation-back .modal2{
     position: fixed;
     top: -40rem;
-    left: -2rem;
-    border: 4px solid grey;
+    left: 8rem;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     z-index: 55;
@@ -1362,6 +1361,7 @@ education .cardEducation-back .modal2{
     width: 50vw;
     height: 71vh;
     transition: 200ms ease-in-out;
+    border: 3px solid #37f78d;
 }
 
 education .cardEducation.flipCard .cardEducation-back .modal2{
@@ -1371,8 +1371,7 @@ education .cardEducation.flipCard .cardEducation-back .modal2{
 education .cardEducation-back .modal3{
     position: fixed;
     top: -40rem;
-    left: -19rem;
-    border: 4px solid grey;
+    left: -13rem;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     z-index: 55;
@@ -1380,6 +1379,7 @@ education .cardEducation-back .modal3{
     width: 50vw;
     height: 71vh;
     transition: 200ms ease-in-out;
+    border: 3px solid #37f78d;
 }
 
 education .cardEducation.flipCard .cardEducation-back .modal3{
@@ -1390,8 +1390,8 @@ education .cardEducation.flipCard .cardEducation-back .modal3{
 education .cardEducation-back .modal4{
     position: fixed;
     top: -40rem;
-    left: -37rem;
-    border: 4px solid grey;
+    left: -30rem;
+    border: 3px solid #37f78d;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     z-index: 55;
@@ -1408,8 +1408,8 @@ education .cardEducation.flipCard .cardEducation-back .modal4{
 education .cardEducation-back .modal5{
     position: fixed;
     top: -40rem;
-    left: -54rem;
-    border: 4px solid grey;
+    left: -50rem;
+    border: 3px solid #37f78d;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     z-index: 55;
@@ -1417,6 +1417,7 @@ education .cardEducation-back .modal5{
     width: 50vw;
     height: 71vh;
     transition: 200ms ease-in-out;
+    overflow: hidden;
 }
 
 education .cardEducation.flipCard .cardEducation-back .modal5{
@@ -1549,6 +1550,8 @@ designUx-section .designUx-modalContainer{
      opacity: 0;
      pointer-events: none;
      transition: opacity 0.3s ease;
+     border: 7px solid crimson;
+     z-index: 9999;
 }
 
 designUx-section .designUx-modalContainer.showModal{
@@ -1565,6 +1568,8 @@ designUx-section .designUx-modal{
      text-align: center;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
      overflow: hidden; 
+     border: 7px solid purple;
+     
 }
 
 
@@ -1879,7 +1884,7 @@ projects-section .projects-cardContent-btn button:hover{
 }
 
 projects-section .projects-modalContainer{
-    border: 4px solid fuchsia;
+    border: 4px solid rgb(68, 255, 0);
     display: flex;
     justify-content: center;
     position: fixed;
@@ -1892,6 +1897,7 @@ projects-section .projects-modalContainer{
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
+    z-index: 9999;
 } 
 
 projects-section .projects-modalContainer.showProjectModal{

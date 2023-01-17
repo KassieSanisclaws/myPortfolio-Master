@@ -1,13 +1,12 @@
 const HeroSection = {
     render:() => {
-         return `<div class="heroSection-body">
- <video autoPlay loop muted><source src="videos/video.mp4" type="video/mp4"/></video>        
+         return `<div class="heroSection-body">    
                      <div class="heroSection-section">
                        
                 <div class="heroSection-section-container">
                      <div class="heroSection-left-content">
                         <div class="heroSection-left-content-img"> 
-                           <img src="images/icon_images/userProfile_icon.png" alt="userProfile" />
+                           <img src="images/hero_section/IMG_0123.jpg" alt="userProfile" />
                         </div>
                      </div>
 

@@ -325,23 +325,8 @@ render:() => {
                              <div class="cardEducation-backModal-header">
                                <div class="modal-title"><h2>Resume</h2></div>
                                </div>
-                                 <div class="cardEducation-backModal-body">
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                                awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                                asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                               awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                               asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                               jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                                awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                                asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                               awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                               asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
+                                 <div class="cardEducation-backModal-body1">
+                                 <img src="/" alt="/Resume"/>
                                 </div>
                              </div>
                              </div>
@@ -356,23 +341,8 @@ render:() => {
                              <div class="cardEducation-backModal-header">
                                <div class="modal-title"><h2>Resume</h2></div>
                                </div>
-                                 <div class="cardEducation-backModal-body">
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                                awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                                asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                               awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                               asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                               jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                                awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                                asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                               awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                               asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
+                                 <div class="cardEducation-backModal-body2">
+                                 <img src="/" alt="CBCGrades"/>
                                 </div>
                              </div>
                              </div>
@@ -386,23 +356,8 @@ render:() => {
                              <div class="cardEducation-backModal-header">
                                <div class="modal-title"><h2>Resume</h2></div>
                                </div>
-                                 <div class="cardEducation-backModal-body">
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                                awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                                asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                               awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                               asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                               jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                                awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                                asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                               awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                               asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
+                                 <div class="cardEducation-backModal-body3">
+                                 <img src="/" alt="TriosGrades"/>
                                 </div>
                              </div>
                              </div>
@@ -414,25 +369,10 @@ render:() => {
                              <h2><p>click To Close</p></h2>
                              <div class="modal5">
                              <div class="cardEducation-backModal-header">
-                               <div class="modal-title"><h2>Resume</h2></div>
+                               <div class="modal-title"><h2>Internship</h2></div>
                                </div>
-                                 <div class="cardEducation-backModal-body">
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                                awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                                asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                               awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                               asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                               jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                                awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                                asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
-                                jhfewyfg3wtyfewfvesfvefe
-                                wadjabwdhwadgawvdgasd ghasdvasdgasvdghasvdsagdvasdgv
-                               awsdjabwdhwadgavdgasvdgsdvghsvdgasdvgasdvas
-                               asdhasvdgtasdsdgsvdgvsdghvsdghsvdghvdghasvdghvd
+                                 <div class="cardEducation-backModal-body4">
+                                 <img src="images/education/breezeMaxWebCert.png" alt="Internship"/>
                                </div>
                              </div>
                              </div>
