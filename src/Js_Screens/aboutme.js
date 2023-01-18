@@ -75,7 +75,16 @@ render:() => {
                    <div class="appGlass"><h1>About Me</h1></div>
                    <div class="about-me-container">
                       
-                   <div class="about-meContent1"></div>
+                   <div class="about-meContent1">
+                       <div class="about-meContent1-img">
+                        <img src="/" alt="/" />
+                       </div>
+                     <div class="about-meContent1-pContent">
+                       <p>I am a Graduate student at Trios College Mississauga Campus, Enterprise Web & Mobile Applications Development course & current Canadian Business College student.
+                       Through my growth & work experiences, JavaScript has become my preferred language, but grew into being well traversed with the stack technologies. Continuously improving, learning, Studying, practicing, and analyzing the problem & solving with solutions optimized to needs. I love Coding, but I am finding new passions within designing architecture, scalability, Web Services & GUI. I created numerous side projects coupling with my growth uploaded to my Git Hub repository.  I am praised as a hard worker, Industrious mind, Self-starter, self-taught, great friend, and team player & over all a humbled, truly caring, trustworthy person. I have high future endeavors with a commitment to excellence. Thank you for the future opportunities & time. 
+                       </p>
+                     </div>
+                   </div>
 
                    <div class="about-meContent2">
                      <div class="about-meContent2-inner">

@@ -180,26 +180,32 @@ hero-section .heroSection-section-container {
 }
 
 hero-section .heroSection-left-content-img img {
-    /* border-radius: 50%; */
     width: 350px;
     height: 440px;
 }
 
 hero-section .heroSection-right-content {
-    border: 4px solid rgb(112, 112, 119);
     height: 7vh;
-    width: 25vw;
+    width: 45vw;
     position: absolute;
     top: 90%;
     left: 48%;
 }
 
+hero-section .heroSection-right-content .heroSection-right-content-pContent p{
+  
+}
+
+hero-section .heroSection-right-content .heroSection-right-content-pContent h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
 hero-section .heroSection-bottom-content {
-    border: 4px solid #046307;
     position: absolute;
     top: 150%;
     left: 48%;
-    width: 30vw;
+    width: 50vw;
 }
 /*--------------------------------------------------------*/
 
@@ -233,7 +239,6 @@ about-me .about-me-container {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    padding: 40px;
-   
 }
 
 about-me .about-me-container > div{
@@ -243,9 +248,24 @@ about-me .about-me-container > div{
 }
 
 about-me .about-meContent1{
-    border: 4px solid lawngreen;
     width: 100%;
     height: 50vh;
+    overflow: hidden;
+}
+
+about-me .about-meContent1-img{
+   border: 4px solid purple;
+   width: 100%;
+   height: 50.7vh;
+}
+
+about-me .about-meContent1 p{
+    border: 3px solid crimson;
+    font-size: 18px;
+}
+
+about-me .about-meContent1 .about-meContent1-p{
+    
 }
 
 about-me .about-meContent2{
@@ -278,7 +298,8 @@ about-me .about-meContent2-innerHeader h2{
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    text-decoration: underline;
+    font-size: 20px;
+    margin: 5.5px 0;
 }
 
 about-me .about-meContent2-contentCards{
@@ -299,7 +320,6 @@ about-me .about-meContent2-contentCard1 h2{
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-
 }
 
 about-me .about-meContent2-contentCard1 li{
@@ -395,7 +415,7 @@ about-me .aboutMe-timeLine ul{
 
 about-me .aboutMe-timeLine li{
     position: relative;
-    padding: 60px;
+    padding: 55px;
 }
 
 about-me .aboutMe-timeLine li:hover{
@@ -403,7 +423,7 @@ about-me .aboutMe-timeLine li:hover{
 }
 
 about-me .aboutMe-timeLine li p{
-    padding: 13px 20px;
+    padding: 11px 20px;
     opacity: 0;
     transform: translateX(10px);
     transition: 1.5s;
@@ -485,7 +505,7 @@ skills-section .skills-header h1{
    text-transform: uppercase;
    padding: 25px;
    font-size: 40px;
-   margin-left: 28px;
+   margin-left: 47px;
 }
 
 skills-section .header{
@@ -641,6 +661,7 @@ skills-section .skillsCard{
 
 skills-section .skillsCard p{
     text-transform: uppercase;
+    font-size: 23px;
 }
 
 skills-section .skillsCard1{
@@ -879,6 +900,13 @@ education .education-contentInner-cards{
     padding: 20px;
 }
 
+education .education-contentInner-cards h3{
+   color: #046307;
+   opacity: .6;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
 education .education-contentInner-cards > div{
     width: 20vw;
     height: calc(40vh /4);
@@ -1075,13 +1103,12 @@ education .education-timeline-header{
 
 education .education-timeline-header h2{
     text-transform: uppercase;
-    text-decoration: underline;
+    opacity: .7;
 }
 
 education .education-timeline-innerContent{
     height: 100%;
     width: 100%;
-    
 }
 
 education .timeline-cards{
@@ -1161,6 +1188,7 @@ education .timeline-cardImg li p{
     opacity: 0;
     transform: translateX(10px);
     transition: 1.5s;
+    font-size: 19.5px;
  }
 
 education .timeLine-innerLine{
@@ -1247,7 +1275,6 @@ education .cardEducation-front h2, .cardEducation-front p{
     padding: 10px;
     text-align: center;
     margin: 1rem 0;
-    font-family: "Audiowide", sans-serif;
 }
 
 education .cardEducation.flipCard{
@@ -1274,10 +1301,8 @@ education .cardEducation.flipCard .cardEducation-back .modal{
 education .cardEducation.flipCard .cardEducation-back p{
     transform: rotateX(0deg) !important;
     text-transform: uppercase;
-    font-size: 20px;
     text-align: center;
     padding: 47px;
-    font-family: 'Syncopate', sans-serif;
 }
 
 education .cardEducation-back .modal{
@@ -1312,7 +1337,6 @@ education .cardEducation-backModal-header h2{
 }
 
 education .cardEducation-backModal-header .modal-title{
-    font-size: 30px;
     font-weight: bold;
 }
 
@@ -1340,6 +1364,7 @@ education .cardEducation-backModal-body4{
     overflow-y: scroll;
     height: 60.3vh;
     overflow: hidden;
+    margin: 3rem 0;
 }
 
 education .cardEducation-backModal-body4 img{
@@ -1348,6 +1373,8 @@ education .cardEducation-backModal-body4 img{
     background-size: cover;
     height: 100%;
     width: 100%;
+   
+    
 }
 
 education .cardEducation-back .modal2{
@@ -1409,7 +1436,7 @@ education .cardEducation-back .modal5{
     position: fixed;
     top: -40rem;
     left: -50rem;
-    border: 3px solid #37f78d;
+    border: 1px solid #37f78d;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     z-index: 55;

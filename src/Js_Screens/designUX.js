@@ -126,16 +126,19 @@ const DesignUX = {
   render:() => {
         return `<div class="designUx-body">
                    <div class="designUx-sectionContainer">
-                      <div class="designUx-content">
-                      <div class="designUx-header"><div class="appGlass"><h1>Design Ux</h1></div></div>
+                     <div class="designUx-content">
+                        <div class="designUx-header"><div class="appGlass">
+                            <h1>Design Ux</h1>
+                          </div>
+                        </div>
+
                       <div class="designUx-innerContent-cards">
-             
                         <div class="designUx-card">
                             <div class="designUx-cardImage">
                               <a href="/">
                                  <img src="/" alt="/"/>  
                               </a></div>
-                            <div class="designUx-cardTitle">designUxCard.name</div>
+                            <div class="designUx-cardTitle">VendorStore-Frontend-App</div>
                             <div class="designUx-cardText"><p>designUxCard.text</p></div>
                             <div class="designUx-cardBtn"><button id="modal-contentBtn">button</button></div>
                         </div>  
@@ -145,7 +148,7 @@ const DesignUX = {
                               <a href="/">
                                  <img src="/" alt="/"/>  
                               </a></div>
-                             <div class="designUx-cardTitle">designUxCard.name</div>
+                             <div class="designUx-cardTitle">MAUI-NotesApp</div>
                              <div class="designUx-cardText"><p>designUxCard.text</p></div>
                              <div class="designUx-cardBtn"><button id="modal-contentBtn2">button</button></div>
                         </div>  
@@ -155,7 +158,7 @@ const DesignUX = {
                               <a href="/">
                                  <img src="/" alt="/"/>  
                               </a></div>
-                             <div class="designUx-cardTitle">designUxCard.name</div>
+                             <div class="designUx-cardTitle">AnimeMangaMVC-App</div>
                              <div class="designUx-cardText"><p>designUxCard.text</p></div>
                              <div class="designUx-cardBtn"><button id="modal-contentBtn3">button</button></div>
                         </div>  
@@ -165,7 +168,7 @@ const DesignUX = {
                               <a href="/">
                                  <img src="/" alt="/"/>  
                               </a></div>
-                             <div class="designUx-cardTitle">designUxCard.name</div>
+                             <div class="designUx-cardTitle">TestQuizApp</div>
                              <div class="designUx-cardText"><p>designUxCard.text</p></div>
                              <div class="designUx-cardBtn"><button id="modal-contentBtn4">button</button></div>
                         </div>  

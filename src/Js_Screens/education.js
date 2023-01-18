@@ -122,7 +122,7 @@ render:() => {
                           <div class="education-contentInner">
 
                              <div class="education-contentInner-cards">
-                                      <h3>Resources</h3>
+                                      <h3>My Learning:</h3>
                                   <div class="showContents"><p>My Progression</p></div>
                                   <div><p>CBC College</p></div>
                                   <div><p>TriosCollege</p></div>
@@ -191,7 +191,8 @@ render:() => {
                                        <div>
                                            <div class="resources-divContent3">
                                            <div class="showContents"><h2>my overview here</h2>
-                                            <p>thuysfbhysfbshfbsyfb</p></div>
+                                          
+                                             </div>
                                            </div>
                                        </div>
 
@@ -367,16 +368,13 @@ render:() => {
                              <div class="cardEducation-front"><h2>InternShip</h2><p>Click Here</p></div>
                              <div class="cardEducation-back">
                              <h2><p>click To Close</p></h2>
-                             <div class="modal5">
-                             <div class="cardEducation-backModal-header">
-                               <div class="modal-title"><h2>Internship</h2></div>
-                               </div>
+                             <div class="modal5">                          
                                  <div class="cardEducation-backModal-body4">
                                  <img src="images/education/breezeMaxWebCert.png" alt="Internship"/>
                                </div>
                              </div>
-                             </div>
-                             <div>
+                          </div>
+                           <div>
                              </div>
 
                              </div>
