@@ -50,7 +50,6 @@ body {
 
 .appGlass{
     /* background: linear-gradient(rgba(20, 206, 51, 0.712), rgba(255, 255, 255, 0.466)); */
-    width: 15vw;
     height: 11vh;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
@@ -59,8 +58,6 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
 }
-
-
 /*--------------------------------------------------------*/
 
 /*Header -Page CSS */
@@ -505,7 +502,6 @@ skills-section .skills-header h1{
    text-transform: uppercase;
    padding: 25px;
    font-size: 40px;
-   margin-left: 47px;
 }
 
 skills-section .header{
@@ -873,7 +869,7 @@ education .education-content{
 education .education-content h1{
     text-align: center;
     text-transform: uppercase;
-    padding: 25px;
+    padding: 30px;
 }
 
 education .education-content2{
@@ -1500,8 +1496,7 @@ designUx-section .designUx-header{
 
 designUx-section .designUx-header h1{
     text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
-    /* font-family: 'Syncopate', sans-serif; */
+    text-align: center;
     padding: 30px;
 }
 
@@ -1726,9 +1721,8 @@ remarks-section .remarks-header{
 
 remarks-section .remarks-header h1{
     text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
-    /* font-family: 'Syncopate', sans-serif; */
-    padding: 35px;
+    text-align: center;
+    padding: 30px;
 }
 
 remarks-section .remarks-cards{
@@ -1837,8 +1831,7 @@ projects-section .projects-header{
 
 projects-section .projects-header h1{
     text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
-    /* font-family: 'Syncopate', sans-serif; */
+    text-align: center;
     padding: 30px; 
 }
 
@@ -1873,9 +1866,6 @@ projects-section .projects-cardContent-header{
 }
 
 projects-section .projects-cardContent-header h2{
-    text-transform: uppercase;
-    /* font-family: "Audiowide", sans-serif; */
-    font-family: 'Syncopate', sans-serif;
     padding: 5px; 
 }
 
@@ -2041,16 +2031,16 @@ contact-me .contactForm-body {
 contact-me .contactForm-body .appGlass h1{
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding: 30px;
     text-transform: uppercase;
-    font-family: "Audiowide", sans-serif;
-    /* font-family: 'Syncopate', sans-serif; */
-
 }
 
 contact-me .contactForm-body .appGlass{
-   margin: 1.5rem 0;
-   margin-left: 50rem;
+   /* margin: 1.5rem 0; */
+   /* margin-left: 50rem; */
+   width: 15vw;
+   position: relative;
+   left: 45%;
 }
 
 contact-me .contactForm-section {
@@ -2277,5 +2267,19 @@ contact-me .contactForm-section-content-contactForm .contactForm-form-box .input
 
 
 footer{
-    background-color: #046307;
+    background-color: #37f78d1a;
+}
+
+footer  .footer-sectionContent{
+    height: 100%;
+    width: 100%;
+}
+
+footer .footer-sectionContent-inner{
+    height: 100%;
+    padding: 17px;
+}
+
+footer .footer-sectionContent-inner h3{
+     text-align: center;
 }

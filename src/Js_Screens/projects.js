@@ -218,7 +218,7 @@ projectModal7_ImgFour.addEventListener("click", ()=>{
 
                 <div class="projects-cardsContent">
                    <div class="projects-cardContent">
-                      <div class="projects-cardContent-header"><h2>Salon Store</h2></div>
+                      <div class="projects-cardContent-header"><h2>React Store-App</h2></div>
                       <div class="projects-cardContent-img">
                       <img src="/" alt="/"/>
                       </div>
@@ -226,7 +226,7 @@ projectModal7_ImgFour.addEventListener("click", ()=>{
                    </div>
 
                    <div class="projects-cardContent">
-                      <div class="projects-cardContent-header"><h2>Salon Store</h2></div>
+                      <div class="projects-cardContent-header"><h2>React Quiz-App</h2></div>
                       <div class="projects-cardContent-img">
                       <img src="/" alt="/"/>
                       </div>
@@ -234,7 +234,7 @@ projectModal7_ImgFour.addEventListener("click", ()=>{
                    </div>
 
                    <div class="projects-cardContent">
-                      <div class="projects-cardContent-header"><h2>Salon Store</h2></div>
+                      <div class="projects-cardContent-header"><h2>MAUI Note-App</h2></div>
                       <div class="projects-cardContent-img">
                       <img src="/" alt="/"/>
                       </div>
@@ -242,7 +242,7 @@ projectModal7_ImgFour.addEventListener("click", ()=>{
                    </div>
 
                    <div class="projects-cardContent">
-                      <div class="projects-cardContent-header"><h2>Salon Store</h2></div>
+                      <div class="projects-cardContent-header"><h2>V-JS-ECommerce</h2></div>
                       <div class="projects-cardContent-img">
                       <img src="/" alt="/"/>
                       </div>
@@ -250,7 +250,7 @@ projectModal7_ImgFour.addEventListener("click", ()=>{
                    </div> 
 
                    <div class="projects-cardContent">
-                      <div class="projects-cardContent-header"><h2>Salon Store</h2></div>
+                      <div class="projects-cardContent-header"><h2>Anime MVC-App</h2></div>
                       <div class="projects-cardContent-img">
                       <img src="/" alt="/"/>
                       </div>
@@ -258,7 +258,7 @@ projectModal7_ImgFour.addEventListener("click", ()=>{
                    </div>
 
                    <div class="projects-cardContent">
-                      <div class="projects-cardContent-header"><h2>Salon Store</h2></div>
+                      <div class="projects-cardContent-header"><h2>React ECommerce</h2></div>
                       <div class="projects-cardContent-img">
                       <img src="/" alt="/"/>
                       </div>
@@ -266,7 +266,7 @@ projectModal7_ImgFour.addEventListener("click", ()=>{
                    </div>
 
                    <div class="projects-cardContent">
-                      <div class="projects-cardContent-header"><h2>Salon Store</h2></div>
+                      <div class="projects-cardContent-header"><h2>V-Js Calculator-App</h2></div>
                       <div class="projects-cardContent-img">
                       <img src="/" alt="/"/>
                       </div>
